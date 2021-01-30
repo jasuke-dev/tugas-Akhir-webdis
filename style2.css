@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    color: black;
+    box-sizing: border-box;
+    font-family: "Monserrat","sans-serif";
+}
+.logo{
+    font-size: 2em;
+}
+ul li a:hover{
+    text-decoration: underline;
+}
+nav{
+    display: flex;
+    position: fixed;
+    justify-content: space-around;    
+    color: rgb(241, 235, 221);
+    min-height: 10vh;
+    align-items: center;
+    padding: 20px 0;
+    left: 0;
+    right: 0;
+    text-align: left;
+    background-color: rgba(235, 173, 30, 0);    
+    font-size: 1.2em;
+}
+nav h1{
+    margin-left: -100px;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    list-style: none;
+    margin-right: -100px;
+}
+nav ul a{
+    text-decoration: none;
+}
+
+/* .container{
+    background-color: #161616;
+    height: 100vh;    
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center ;
+    text-align: left;
+} */
+.page{
+    min-height: 90vh;
+}
+.judul{
+    cursor: pointer;
+    
+}
+.utama{
+    font-size: 3em;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
